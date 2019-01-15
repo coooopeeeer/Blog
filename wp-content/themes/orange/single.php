@@ -4,14 +4,12 @@
     <?php
         if ( have_posts() ) : while ( have_posts() ) : the_post();
     ?>
-    <section class="post">
+    <article class="content">
         <h2>
-            <a href="<?php the_permalink(); ?>">
-                <?php the_title(); ?>
-            </a>
+            <?php the_title(); ?>
         </h2>
-        <?php the_excerpt(); ?>
-    </section>
+        <?php the_content(); ?>
+    </article>
     <?php
         endwhile;
         endif;
