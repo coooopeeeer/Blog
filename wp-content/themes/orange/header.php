@@ -12,7 +12,7 @@
         <header>
             <div class="wrapper">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/img_logo.png" alt="なすのゆるログ">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/img_logo.png" alt="なすのゆるログ">
                 </a>
             </div>
             <div class="band">Webに関する備忘録や気になったこと、自分の好きなことを気ままに書いているゆるログです。</div>

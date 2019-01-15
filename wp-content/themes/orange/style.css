@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: Orange
 Description: パーソナルブログのテーマ
@@ -5,3 +6,53 @@ Version: 1.0
 Author: Natsumi Kobayashi
 Author URI: http://nasurogu.com/
 */
+body,
+section,
+div,
+nav,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;
+  color: #333;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+header .wrapper {
+  padding: 60px 0;
+}
+
+header .band {
+  color: #fff;
+  padding: 20px 0;
+  background: #F29364;
+}
+
+footer {
+  color: #fff;
+  padding: 20px 0;
+  background: #F29364;
+  text-align: center;
+}
