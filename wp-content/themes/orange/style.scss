@@ -56,6 +56,51 @@ header {
 
 
 // Main contents
+#container {
+    padding: 100px 0;
+    background: #f0f0f0;
+    .content {
+      display: flex;
+    }
+}
+
+main {
+    padding-right: 40px;
+    flex: 2;
+}
+
+
+// Side contents
+aside {
+    flex: 1;
+}
+
+.widget_title {
+    display: none;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: Avenir Next;
+    font-weight: normal;
+    letter-spacing: 1.83px;
+    margin-bottom: 25px;
+    text-align: center;
+    span {
+        padding: 0 5px;
+        background: linear-gradient(transparent 60%, #F29364 60%);
+    }
+}
+
+
+// Profile
+.widget_profile img {
+    margin-bottom: 25px;
+}
+
+.widget_profile p {
+    line-height: 1.7;
+}
 
 
 // Footer
