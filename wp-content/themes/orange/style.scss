@@ -35,6 +35,10 @@ body {
     color: #333;
 }
 
+a {
+    color: #333;
+}
+
 .wrapper {
     width: 1200px;
     margin: 0 auto;
@@ -67,6 +71,31 @@ header {
 main {
     padding-right: 40px;
     flex: 2;
+    .post {
+        font-size: 12px;
+        padding: 20px;
+        background: #fff;
+        display: flex;
+        img {
+            margin-right: 20px;
+        }
+        .date {
+            margin-bottom: 10px;
+            display: block;
+        }
+        .category {
+            display: block;
+            a {
+                color: $mainColor;
+            }
+        }
+        h2 {
+            margin: 20px 0;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
 }
 
 

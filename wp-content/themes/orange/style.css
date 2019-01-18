@@ -31,6 +31,10 @@ body {
   color: #333;
 }
 
+a {
+  color: #333;
+}
+
 .wrapper {
   width: 1200px;
   margin: 0 auto;
@@ -62,6 +66,38 @@ header .band {
 main {
   padding-right: 40px;
   flex: 2;
+}
+
+main .post {
+  font-size: 12px;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+}
+
+main .post img {
+  margin-right: 20px;
+}
+
+main .post .date {
+  margin-bottom: 10px;
+  display: block;
+}
+
+main .post .category {
+  display: block;
+}
+
+main .post .category a {
+  color: #F29364;
+}
+
+main .post h2 {
+  margin: 20px 0;
+}
+
+main .post h2 a {
+  text-decoration: none;
 }
 
 aside {

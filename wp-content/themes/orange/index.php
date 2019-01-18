@@ -8,12 +8,17 @@
                     if ( have_posts() ) : while ( have_posts() ) : the_post();
                 ?>
                 <section class="post">
-                    <h2>
-                        <a href="<?php the_permalink(); ?>">
-                            <?php the_title(); ?>
-                        </a>
-                    </h2>
-                    <?php the_excerpt(); ?>
+                    <?php if(has_post_thumbnail()) { echo the_post_thumbnail(); } ?>
+                    <div class="info">
+                        <span class="date"><?php the_time('Y.m.j') ?></span>
+                        <span class="category"><?php the_category(', ') ?></span>
+                        <h2 class="title">
+                            <a href="<?php the_permalink(); ?>">
+                                <?php the_title(); ?>
+                            </a>
+                        </h2>
+                        <?php the_excerpt(); ?>
+                    </div>
                 </section>
                 <?php
                     endwhile;
